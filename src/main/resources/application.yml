@@ -1,0 +1,27 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAT6IRET63H4DJM7OR
+      secret-key: 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
+    region:
+      static: us-east-2
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: hlina-aws-demo-2022
+
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 5MB
+      max-request-size: 10MB
+
+server:
+  port: 9090
+
+
